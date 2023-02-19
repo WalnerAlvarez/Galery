@@ -1,0 +1,60 @@
+body {
+    background-color: aliceblue;
+    margin: 1em;
+}
+
+.navbar {
+    max-width: 100%;
+    height: auto;
+    /*background-image: url("https://images.pexels.com/photos/9365612/pexels-photo-9365612.jpeg?auto=compress&cs=tinysrgb&w=600");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar-nav {
+    margin-left: 150px;
+}
+
+.nav-item a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: indigo;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    max-width: 30%;
+}
+
+h1 {
+    text-align: center;
+    color: forestgreen;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.galeria {
+    columns: 5 320px;
+    column-gap: 1em;
+    object-fit: cover;
+}
+
+.galeria img:hover {
+    filter: opacity(0.9);
+}
+
+
+/*@media screen and (max-width: 400px) {
+    
+}*/
