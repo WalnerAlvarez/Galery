@@ -27,13 +27,28 @@ body {
     font-weight: bold;
 }
 
+
+/*   logo */
+
 .navbar-brand img {
     max-width: 30%;
+    background-color: lightgray;
 }
 
-h1 {
+.navbar-brand img:hover {
+    filter: opacity(0.8);
+}
+
+h3 {
     text-align: center;
-    color: forestgreen;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: start;
+    color: black;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -42,6 +57,7 @@ img {
     max-width: 100%;
     cursor: pointer;
     background-color: lightgray;
+    margin-bottom: 10px;
 }
 
 .galeria {
@@ -55,6 +71,27 @@ img {
 }
 
 
-/*@media screen and (max-width: 400px) {
-    
-}*/
+/* footer */
+
+#logo-footer {
+    max-width: 15%;
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .navbar-nav {
+        margin-left: 120px;
+    }
+    ul.nav li {
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .text-muted {
+        margin-right: 5px;
+    }
+}
