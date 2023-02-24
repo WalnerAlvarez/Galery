@@ -40,13 +40,6 @@ body {
 }
 
 h3 {
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h3 {
     text-align: start;
     color: black;
     text-transform: uppercase;
@@ -55,7 +48,7 @@ h3 {
 }
 
 span {
-    margin-top: 10px;
+    font-weight: lighter;
 }
 
 img {
