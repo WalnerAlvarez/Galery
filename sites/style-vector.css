@@ -24,12 +24,6 @@ body {
     font-size: 20px;
 }
 
-.nav-item a:hover {
-    color: blueviolet;
-    font-style: italic;
-    font-weight: bold;
-}
-
 
 /*   logo */
 
@@ -73,8 +67,8 @@ img {
     margin-left: 5px;
     margin-right: 5px;
     color: indigo;
+    font-family: serif;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #logo-footer {
@@ -101,6 +95,9 @@ img {
     }
     h1 {
         font-size: 18px;
+    }
+    h5 {
+        font-family: serif;
     }
     .navbar-nav {
         margin-left: 60px;
